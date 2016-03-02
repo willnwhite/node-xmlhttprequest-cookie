@@ -36,7 +36,7 @@ In addition, the exposed `XMLHttpRequest` object also has a
 grants access to the cookie jar:
 
     var fs = require("fs");
-    var xhrc = require("./xmlhttprequest-cookie");
+    var xhrc = require("xmlhttprequest-cookie");
     var XMLHttpRequest = xhrc.XMLHttpRequest;
     var CookieJar = xhrc.CookieJar;
 
