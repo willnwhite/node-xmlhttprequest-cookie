@@ -52,7 +52,7 @@ grants access to the cookie jar:
                 complete(xhr);
             }
         };
-        xhr.open("GET", "https://github.com/rse/");
+        xhr.open("GET", url);
         xhr.send();
     };
 
